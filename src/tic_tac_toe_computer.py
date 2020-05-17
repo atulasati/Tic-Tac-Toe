@@ -129,7 +129,7 @@ class TicTacToeComputer(object):
             print ("---- Computer is making decision ----")
             self.row, self.column = self.computer_decision()
             time.sleep(1)
-            print ("Computer decide to go with move: %s%s" %(self.row, self.column))
+            print ("Computer decided to go with move: %s%s" %(self.row, self.column))
 
         self.board[self.row][self.column] = self.player
         self.available_moves.remove((self.row, self.column))
