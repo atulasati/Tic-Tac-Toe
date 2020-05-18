@@ -133,6 +133,7 @@ class TicTacToe(object):
                     self.update_board()
                 else:
                     print("The place you have selected was already reserved!")
+                    continue
 
                 if self.won() or self.no_moves_left():
                     if self.end_game():

@@ -127,6 +127,7 @@ class TicTacToeNumBased(object):
                     self.update_board()
                 else:
                     print("The place you have selected was already reserved!")
+                    continue
 
                 if self.who_won():
                     print ("WON! Player '%s' is the winner!" %self.player)
